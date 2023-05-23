@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "o+6YOnBLD3e4bTFmV5HdRPEuVOYQJPT4Ui1KhYOGccSsnDZ6rucujN7qo63kam/IkioJWpIpUrslleSYP7Tc1Q==",
+  "dgSpecHash": "XEnV0mGv5/N7AHLginj7K0O1csr5I5quiBoHlZIb9TBaq0umetbfDL8z+THC64KqtGQrNr72xfKmSwzN4b6bkQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\user\\RiderProjects\\limefarm\\limefarm.csproj",
+  "projectFilePath": "C:\\Users\\user\\project\\limefarm\\limefarm.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
