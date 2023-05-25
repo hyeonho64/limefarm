@@ -1,4 +1,9 @@
 /* _content/limefarm/Shared/MainLayout.razor.rz.scp.css */
+html[b-twtv53eca1], body[b-twtv53eca1] {
+    width: 100%;
+    height: 100%;
+}
+
 .sidebar[b-twtv53eca1] {
     margin-top: 1rem;
     margin-left: 1rem;
@@ -6,6 +11,9 @@
     border-radius: 1rem;
     background-color: #e9fac8;
     height: 95vh;
+    width: 16vw;
+    position: sticky;
+    top: 0;
 }
 
 .content[b-twtv53eca1] {
@@ -15,11 +23,29 @@
     width: 81vw;
 }
 
-@media (min-width: 641px) {
-    .sidebar[b-twtv53eca1] {
-        width: 16vw;
-        position: sticky;
-        top: 0;
+.mobile-disable[b-twtv53eca1] {
+    display: block;
+}
+
+.mobile-show[b-twtv53eca1] {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .mobile-disable[b-twtv53eca1] {
+        display: none;
+    }
+
+    .mobile-show[b-twtv53eca1] {
+        display: block;
+    }
+    
+    .content[b-twtv53eca1] {
+        margin: 0;
+        width: 100vw;
+        border: 0 !important;
+        border-radius: 0 !important;
+        box-shadow: none !important;
     }
 }
 /* _content/limefarm/Shared/NavMenu.razor.rz.scp.css */
