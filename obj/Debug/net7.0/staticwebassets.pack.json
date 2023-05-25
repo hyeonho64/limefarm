@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
     },
     {
+      "Id": "C:\\Users\\user\\project\\limefarm\\wwwroot\\css\\font.css",
+      "PackagePath": "staticwebassets\\css\\font.css"
+    },
+    {
       "Id": "C:\\Users\\user\\project\\limefarm\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
       "PackagePath": "staticwebassets\\css\\open-iconic"
     },
@@ -55,6 +59,10 @@
     {
       "Id": "C:\\Users\\user\\project\\limefarm\\wwwroot\\favicon.png",
       "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\user\\project\\limefarm\\wwwroot\\image\\icons\\icon.png",
+      "PackagePath": "staticwebassets\\image\\icons\\icon.png"
     },
     {
       "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.limefarm.props",

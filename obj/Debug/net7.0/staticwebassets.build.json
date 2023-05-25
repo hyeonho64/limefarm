@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "qLb0f3zaTeqDOzz8X5JFhUiY7xFIk0QxauftDHEv8cg=",
+  "Hash": "eBhvoiE6ToAqqKV9VWHVu37U9wulSOAl15+yAEedSKA=",
   "Source": "limefarm",
   "BasePath": "_content/limefarm",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Identity": "C:\\Users\\user\\project\\limefarm\\wwwroot\\css\\font.css",
+      "SourceId": "limefarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\project\\limefarm\\wwwroot\\",
+      "BasePath": "_content/limefarm",
+      "RelativePath": "css/font.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\font.css"
     },
     {
       "Identity": "C:\\Users\\user\\project\\limefarm\\wwwroot\\css\\open-iconic\\FONT-LICENSE",
@@ -270,6 +287,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.png"
+    },
+    {
+      "Identity": "C:\\Users\\user\\project\\limefarm\\wwwroot\\image\\icons\\icon.png",
+      "SourceId": "limefarm",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\user\\project\\limefarm\\wwwroot\\",
+      "BasePath": "_content/limefarm",
+      "RelativePath": "image/icons/icon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\image\\icons\\icon.png"
     }
   ]
 }

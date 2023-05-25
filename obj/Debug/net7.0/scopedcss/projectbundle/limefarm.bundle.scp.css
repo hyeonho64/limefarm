@@ -1,72 +1,25 @@
 /* _content/limefarm/Shared/MainLayout.razor.rz.scp.css */
-.page[b-twtv53eca1] {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-}
-
-main[b-twtv53eca1] {
-    flex: 1;
-}
-
 .sidebar[b-twtv53eca1] {
-    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+    margin-top: 1rem;
+    margin-left: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    background-color: #e9fac8;
+    height: 95vh;
 }
 
-.top-row[b-twtv53eca1] {
-    background-color: #f7f7f7;
-    border-bottom: 1px solid #d6d5d5;
-    justify-content: flex-end;
-    height: 3.5rem;
-    display: flex;
-    align-items: center;
-}
-
-    .top-row[b-twtv53eca1]  a, .top-row .btn-link[b-twtv53eca1] {
-        white-space: nowrap;
-        margin-left: 1.5rem;
-    }
-
-    .top-row a:first-child[b-twtv53eca1] {
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-@media (max-width: 640.98px) {
-    .top-row:not(.auth)[b-twtv53eca1] {
-        display: none;
-    }
-
-    .top-row.auth[b-twtv53eca1] {
-        justify-content: space-between;
-    }
-
-    .top-row a[b-twtv53eca1], .top-row .btn-link[b-twtv53eca1] {
-        margin-left: 0;
-    }
+.content[b-twtv53eca1] {
+    height: 95vh;
+    border-radius: 1rem;
+    margin: 1rem;
+    width: 81vw;
 }
 
 @media (min-width: 641px) {
-    .page[b-twtv53eca1] {
-        flex-direction: row;
-    }
-
     .sidebar[b-twtv53eca1] {
-        width: 250px;
-        height: 100vh;
+        width: 16vw;
         position: sticky;
         top: 0;
-    }
-
-    .top-row[b-twtv53eca1] {
-        position: sticky;
-        top: 0;
-        z-index: 1;
-    }
-
-    .top-row[b-twtv53eca1], article[b-twtv53eca1] {
-        padding-left: 2rem !important;
-        padding-right: 1.5rem !important;
     }
 }
 /* _content/limefarm/Shared/NavMenu.razor.rz.scp.css */
@@ -75,12 +28,16 @@ main[b-twtv53eca1] {
 }
 
 .top-row[b-aqnfovxgdo] {
-    height: 3.5rem;
-    background-color: rgba(0,0,0,0.4);
+    height: auto;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 .navbar-brand[b-aqnfovxgdo] {
-    font-size: 1.1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: black;
 }
 
 .oi[b-aqnfovxgdo] {
@@ -96,15 +53,10 @@ main[b-twtv53eca1] {
 }
 
     .nav-item:first-of-type[b-aqnfovxgdo] {
-        padding-top: 1rem;
-    }
-
-    .nav-item:last-of-type[b-aqnfovxgdo] {
-        padding-bottom: 1rem;
     }
 
     .nav-item[b-aqnfovxgdo]  a {
-        color: #d7d7d7;
+        color: #5C940D;
         border-radius: 4px;
         height: 3rem;
         display: flex;
@@ -113,28 +65,10 @@ main[b-twtv53eca1] {
     }
 
 .nav-item[b-aqnfovxgdo]  a.active {
-    background-color: rgba(255,255,255,0.25);
-    color: white;
+    background-color: #d8f5a2;
+    font-weight: bold;
 }
 
 .nav-item[b-aqnfovxgdo]  a:hover {
-    background-color: rgba(255,255,255,0.1);
-    color: white;
-}
-
-@media (min-width: 641px) {
-    .navbar-toggler[b-aqnfovxgdo] {
-        display: none;
-    }
-
-    .collapse[b-aqnfovxgdo] {
-        /* Never collapse the sidebar for wide screens */
-        display: block;
-    }
-    
-    .nav-scrollable[b-aqnfovxgdo] {
-        /* Allow sidebar to scroll for tall menus */
-        height: calc(100vh - 3.5rem);
-        overflow-y: auto;
-    }
+    background-color: #f4fce3;
 }
