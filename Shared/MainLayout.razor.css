@@ -30,7 +30,7 @@ html, body {
     display: none;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 970px) {
     .mobile-disable {
         display: none;
     }
@@ -42,8 +42,29 @@ html, body {
     .content {
         margin: 0;
         width: 100vw;
+        height: auto;
         border: 0 !important;
         border-radius: 0 !important;
         box-shadow: none !important;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .content {
+        width: 76vw;
+    }
+    
+    .sidebar {
+        width: 21vw
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .content {
+        width: 78vw;
+    }
+    
+    .sidebar {
+        width: 19vw;
     }
 }

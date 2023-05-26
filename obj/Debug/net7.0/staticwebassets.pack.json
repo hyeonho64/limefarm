@@ -5,14 +5,6 @@
       "PackagePath": "staticwebassets\\limefarm.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\user\\project\\limefarm\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
-    },
-    {
-      "Id": "C:\\Users\\user\\project\\limefarm\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
-      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
-    },
-    {
       "Id": "C:\\Users\\user\\project\\limefarm\\wwwroot\\css\\font.css",
       "PackagePath": "staticwebassets\\css\\font.css"
     },
