@@ -11,7 +11,7 @@ html[b-twtv53eca1], body[b-twtv53eca1] {
     border-radius: 1rem;
     background-color: white;
     height: 95vh;
-    width: 16vw;
+    width: 5.7vw;
     position: sticky;
     top: 0;
 }
@@ -20,7 +20,7 @@ html[b-twtv53eca1], body[b-twtv53eca1] {
     height: 95vh;
     border-radius: 1rem;
     margin: 1rem;
-    width: 81vw;
+    width: 91vw;
 }
 
 .mobile-disable[b-twtv53eca1] {
@@ -31,7 +31,7 @@ html[b-twtv53eca1], body[b-twtv53eca1] {
     display: none;
 }
 
-@media screen and (max-width: 970px) {
+@media screen and (max-width: 1400px) {
     .mobile-disable[b-twtv53eca1] {
         display: none;
     }
@@ -49,38 +49,15 @@ html[b-twtv53eca1], body[b-twtv53eca1] {
         box-shadow: none !important;
     }
 }
-
-@media screen and (max-width: 1000px) {
-    .content[b-twtv53eca1] {
-        width: 76vw;
-    }
-    
-    .sidebar[b-twtv53eca1] {
-        width: 21vw
-    }
-}
-
-@media screen and (max-width: 1200px) {
-    .content[b-twtv53eca1] {
-        width: 78vw;
-    }
-    
-    .sidebar[b-twtv53eca1] {
-        width: 19vw;
-    }
-}
 /* _content/limefarm/Shared/NavMenu.razor.rz.scp.css */
 .top-row[b-aqnfovxgdo] {
     height: auto;
-    padding-top: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    background-color: #cdf388;
+    padding-left: 0.7rem;
     border-radius: 1rem 1rem 0 0;
 }
 
 .navbar-brand[b-aqnfovxgdo] {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: black;
 }
@@ -102,7 +79,7 @@ html[b-twtv53eca1], body[b-twtv53eca1] {
     }
 
     .nav-item[b-aqnfovxgdo]  a {
-        color: #5C940D;
+        color: #37b24d;
         border-radius: 4px;
         height: 3rem;
         display: flex;
@@ -114,10 +91,10 @@ html[b-twtv53eca1], body[b-twtv53eca1] {
     }
 
 .nav-item[b-aqnfovxgdo]  a.active {
-    background-color: #d8f5a2;
+    background-color: #d3f9d8;
     font-weight: bold;
 }
 
 .nav-item[b-aqnfovxgdo]  a:hover {
-    background-color: #e9fac8;
+    background-color: #b2f2bb;
 }

@@ -10,19 +10,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2aff9271-cd58-4dfd-81ec-e29eac4a6e2f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.limefarm.dir/.idea/git_toolbox_prj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.limefarm.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.limefarm.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/WeatherForecast.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Data/WeatherForecastService.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/Error.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Pages/Error.cshtml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/FetchData.razor" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shared/MainLayout.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/MainLayout.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shared/MainLayout.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/MainLayout.razor.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Shared/NavMenu.razor" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/NavMenu.razor" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Shared/NavMenu.razor.css" beforeDir="false" afterPath="$PROJECT_DIR$/Shared/NavMenu.razor.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/limefarm.dll" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/limefarm.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/Debug/net7.0/limefarm.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/bin/Debug/net7.0/limefarm.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/limefarm.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/limefarm.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/limefarm.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/limefarm.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/limefarm.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/limefarm.csproj.CoreCompileInputs.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/limefarm.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/limefarm.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/limefarm.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/limefarm.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/ref/limefarm.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/ref/limefarm.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/refint/limefarm.dll" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/refint/limefarm.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/Shared/MainLayout.razor.rz.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/Shared/MainLayout.razor.rz.scp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/Shared/NavMenu.razor.rz.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/Shared/NavMenu.razor.rz.scp.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/bundle/limefarm.styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/bundle/limefarm.styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/projectbundle/limefarm.bundle.scp.css" beforeDir="false" afterPath="$PROJECT_DIR$/obj/Debug/net7.0/scopedcss/projectbundle/limefarm.bundle.scp.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wwwroot/image/icons/icon.png" beforeDir="false" afterPath="$PROJECT_DIR$/wwwroot/image/icons/icon.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +98,7 @@
     ]
   }
 }</component>
-  <component name="RunManager" selected=".NET Launch Settings Profile.limefarm: https">
+  <component name="RunManager" selected=".NET Launch Settings Profile.limefarm: http">
     <configuration name="limefarm: IIS Express" type="LaunchSettings" factoryName=".NET Launch Settings Profile">
       <option name="LAUNCH_PROFILE_PROJECT_FILE_PATH" value="$PROJECT_DIR$/limefarm.csproj" />
       <option name="LAUNCH_PROFILE_TFM" value="net7.0" />
@@ -152,6 +163,10 @@
       <workItem from="1685158288299" duration="360000" />
       <workItem from="1685181210196" duration="204000" />
       <workItem from="1685181454310" duration="14000" />
+      <workItem from="1685252716724" duration="1897000" />
+      <workItem from="1685262169300" duration="21000" />
+      <workItem from="1685262235711" duration="4076000" />
+      <workItem from="1685326372219" duration="296000" />
     </task>
     <task id="LOCAL-00001" summary="홈화면 ui 개선.">
       <created>1685017675127</created>
@@ -174,7 +189,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685088300598</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="sidebar style 수정.">
+      <created>1685260755574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685260755574</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +209,7 @@
     <MESSAGE value="홈화면 ui 개선." />
     <MESSAGE value="반응형 design 수정." />
     <MESSAGE value="bootstrap cdn 추가.&#10;로컬 bootstrap 파일 삭제.&#10;반응형 디자인 개선." />
-    <option name="LAST_COMMIT_MESSAGE" value="bootstrap cdn 추가.&#10;로컬 bootstrap 파일 삭제.&#10;반응형 디자인 개선." />
+    <MESSAGE value="sidebar style 수정." />
+    <option name="LAST_COMMIT_MESSAGE" value="sidebar style 수정." />
   </component>
 </project>

@@ -1,14 +1,11 @@
 .top-row {
     height: auto;
-    padding-top: 0.5rem;
-    padding-left: 1rem;
-    padding-right: 1rem;
-    background-color: #cdf388;
+    padding-left: 0.7rem;
     border-radius: 1rem 1rem 0 0;
 }
 
 .navbar-brand {
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     font-weight: bold;
     color: black;
 }
@@ -30,7 +27,7 @@
     }
 
     .nav-item ::deep a {
-        color: #5C940D;
+        color: #37b24d;
         border-radius: 4px;
         height: 3rem;
         display: flex;
@@ -42,10 +39,10 @@
     }
 
 .nav-item ::deep a.active {
-    background-color: #d8f5a2;
+    background-color: #d3f9d8;
     font-weight: bold;
 }
 
 .nav-item ::deep a:hover {
-    background-color: #e9fac8;
+    background-color: #b2f2bb;
 }
